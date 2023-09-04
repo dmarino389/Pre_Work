@@ -1,0 +1,227 @@
+/* General styles */
+body, html {
+  height: 100%;
+  margin: 0;
+ 
+}
+
+nav {
+  display: block;
+  color: white;
+}
+
+nav ul {
+  background-color: black;
+  margin: 0;
+  list-style-type: none;
+  padding: 20px;
+
+}
+
+nav li {
+  display: inline;
+  margin: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/hero-image.jpg");
+  height: 50vh; /* Use viewport height for responsiveness */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main {
+  width: 100%;
+  padding: 20px;
+}
+
+#side {
+  /* width: 20%; */
+  float: right;
+  padding: 30px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+#profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid lightgray;
+}
+
+#profile {
+  text-align: center;
+}
+
+.side-articles ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#profile h2 {
+  display: inline;
+}
+
+.side-articles,
+.main-articles {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  
+}
+
+.side-articles {
+  background-color: white;
+  text-align: center;
+  
+}
+
+.main-articles {
+  background-color: lightgray;
+  padding: 20px;
+  
+}
+
+form {
+  margin-top: 20px;
+}
+
+textarea,
+input {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.side-articles h1 {
+  margin-bottom: 20px;
+}
+
+#ctbackground {
+  background-image: url(../Images/coding-temple.jpg);
+  background-size: 30vw;
+  background-position: center;
+  background-color: white;
+  height: 20vw;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media screen and (min-width: 768px) {
+  /* For screens with a minimum width of 768px */
+  #main {
+    width: 75%;
+  }
+  
+  #side {
+    width: 25%;
+    float: right;
+    padding: 30px;
+    margin-right: 0;
+    padding: auto;
+  }
+  
+
+  .hero-image {
+    height: 70vh;
+  }
+
+  .list {
+    width: 80%;
+    margin-left: 10%;
+    list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  /* For screens with a minimum width of 1024px */
+  main {
+    max-width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    float: left;
+  }
+
+  #side {
+    text-align: center;
+    width: 300px;
+    float: right;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* For screens with a minimum width of 1200px */
+  .hero-image {
+    height: 80vh;
+  }
+}
+
+.software-engineer{
+  text-align: center; /* This centers inline content like text */
+    display: flex; /* Use flexbox to center block-level content */
+    justify-content: center; /* Horizontally center content */
+   text-align: center;
+    height: 25vh; /* This ensures the container takes the full viewport height */
+   
+    margin: auto;
+}
+
+#software-engineer-box{
+  margin: auto;
+  margin-left: 50%;
+}
+
+#first-p{
+  text-align: center;
+  justify-content: center;
+  color: lightgreen;
+}
+
+.let-me{
+  color: lightgreen;
+}
+
+.hobbies{
+  list-style: none;
+  list-style-type: none;
+}
+
+.text-goals{
+  display: block;
+  margin-top: 0px;
+  margin-top: 300px;
+  text-align: center;
+  margin-left: 340px;
+  
+}
+
